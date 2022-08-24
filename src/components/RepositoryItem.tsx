@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 interface RepositoryItemProps {
   repository: {
     name: string;
@@ -9,7 +7,9 @@ interface RepositoryItemProps {
 }
 
 export function RepositoryItem(props: RepositoryItemProps) {
-  const [teste, useTeste] = useState("");
+  const teste = () => {
+    return "dijsaiodjiasjd";
+  };
 
   return (
     <li>
